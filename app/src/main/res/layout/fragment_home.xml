@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHome"
+        tools:listitem="@layout/item_list"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         app:layout_constraintEnd_toEndOf="parent"
@@ -15,6 +23,7 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_add"
         android:backgroundTint="#E65100"/>
+
 
 
 

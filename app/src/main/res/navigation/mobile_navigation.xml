@@ -16,7 +16,11 @@
         android:name="kg.geektech.taskapp.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
-
+    <fragment
+        android:id="@+id/fouthFragment"
+        android:name="kg.geektech.taskapp.ui.fourthFrag.FouthFragment"
+        android:label="Fouth"
+        tools:layout="@layout/fragment_fouth" />
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="kg.geektech.taskapp.ui.notifications.NotificationsFragment"
@@ -24,7 +28,7 @@
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/taskFragment"
-        android:name="kg.geektech.taskapp.TaskFragment"
+        android:name="kg.geektech.taskapp.ui.newsFrag.NewsFragment"
         android:label="fragment_task"
-        tools:layout="@layout/fragment_task" />
+        tools:layout="@layout/fragment_news" />
 </navigation>
