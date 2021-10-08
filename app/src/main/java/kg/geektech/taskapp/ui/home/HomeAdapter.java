@@ -60,8 +60,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             binding.textItemTv.setText(news.getTitle());
             binding.getRoot().setOnLongClickListener(v -> {
                 AlertDialog.Builder alert = new AlertDialog.Builder(v.getContext());
-                alert.setTitle("Attention !!").setMessage("delete item ?")
-                        .setPositiveButton("yes", (dialog, which) -> {
+                alert.setTitle("Attention !!").setMessage("delete item ?").setPositiveButton("yes", (dialog, which) -> {
                            list.remove(getAdapterPosition());
                            notifyItemRemoved(getAdapterPosition());
                         }).setNegativeButton("No", (dialog, which) -> dialog.dismiss()).show();

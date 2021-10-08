@@ -1,4 +1,5 @@
-0л0ощ44 мр
+rootProject.name = "TaskApp"
+include ':app'
 
 
 
