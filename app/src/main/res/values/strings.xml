@@ -9,4 +9,8 @@
     <string name="fourth">Fourth</string>
     <string name="skip">SKIP</string>
     <string name="politic">Принять соглашение с политикой</string>
+    <string name="web_client_id">285239103504-6glmgqetcig6brj2sprpud4sduebrg6k.apps.googleusercontent.com</string>
+<!--    <string name="web_client_id">462770071106-e60j37qb4sovnae4018her1mtn3ird2f.apps.googleusercontent.com</string>-->
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
 </resources>

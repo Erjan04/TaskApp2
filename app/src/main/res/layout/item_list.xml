@@ -15,10 +15,10 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/text" />
 
-    <TextClock
+    <TextView
+        android:id="@+id/timeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:format12Hour="hh:mm"
         android:gravity="end"
         android:padding="12dp"
         android:textColor="@color/black"

@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".ui.newsFrag.NewsFragment">
+    tools:context="kg.geektech.taskapp35.ui.newsFrag.NewsFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        app:endIconMode="clear_text"
+        android:layout_height="wrap_content"
         app:counterEnabled="true"
         app:counterMaxLength="20"
-        android:layout_height="wrap_content">
+        app:endIconMode="clear_text">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="Введите задачку:"
             android:inputType="textCapWords"
-            android:paddingStart="10dp"
-            android:hint="Введите задачку:" />
+            android:paddingStart="10dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        style="@style/ButtonStyle"
         android:text="Save"
-        android:layout_height="wrap_content"/>
+        android:textColor="@color/white" />
+
+
 
 </LinearLayout>
